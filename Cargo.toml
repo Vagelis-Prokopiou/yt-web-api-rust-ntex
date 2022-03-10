@@ -1,0 +1,13 @@
+[package]
+name = "api_ntext"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.59"
+
+[dependencies]
+serde = { version = "*", features = ["derive"] }
+num_cpus = "*"
+ntex = { version = "0.5", features = ["tokio"] }
+#ntex = { version = "0.5", features = ["async-std"] }
+
+
